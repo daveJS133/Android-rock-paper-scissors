@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id = "@+id/rock_button"
+        android:text="Rock"
+        android:onClick="onRockButtonPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <Button
+        android:id = "@+id/paper_button"
+        android:text="Paper"
+        android:onClick="onPaperButtonPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <Button
+        android:id = "@+id/scissors_button"
+        android:text="Scissor"
+        android:onClick="onScissorsButtonPressed"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:id = "@+id/instruction"
+        android:text="Choose your weapon:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
